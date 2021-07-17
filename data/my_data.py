@@ -1,5 +1,6 @@
 import csv
 
+
 archive = open('../src/wifi_localization.csv', 'r')  # Abrindo um arquivo
 datas = csv.reader(archive, delimiter=',', )  # Abrindo o arquivo como csv
 
